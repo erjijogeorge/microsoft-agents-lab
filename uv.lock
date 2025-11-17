@@ -236,16 +236,20 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "agent-framework" },
+    { name = "anyio" },
     { name = "azure-ai-inference" },
     { name = "azure-identity" },
+    { name = "mcp" },
     { name = "python-dotenv" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "agent-framework", specifier = ">=1.0.0b251112.post1" },
+    { name = "anyio", specifier = ">=4.11.0" },
     { name = "azure-ai-inference", specifier = ">=1.0.0b9" },
     { name = "azure-identity", specifier = ">=1.25.1" },
+    { name = "mcp", specifier = ">=1.21.1" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
 ]
 

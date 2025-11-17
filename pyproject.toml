@@ -9,4 +9,6 @@ dependencies = [
     "azure-ai-inference>=1.0.0b9",
     "azure-identity>=1.25.1",
     "python-dotenv>=1.2.1",
+    "mcp>=1.21.1",
+    "anyio>=4.11.0",
 ]
